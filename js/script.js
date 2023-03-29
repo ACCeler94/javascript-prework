@@ -21,11 +21,13 @@ console.log('Gracz wpisał: ' + playerInput);
 let playerMove = 'nieznany ruch';
 
 if(playerInput == '1'){
-  playerMove = 'kamień';
+    playerMove = 'kamień';
 } else if(playerInput == '2'){
-    computerMove = 'papier';
+    playerMove = 'papier';
 } else if(playerInput == '3'){
-    computerMove = 'nożyce';
+    playerMove = 'nożyce';
 }
 
 printMessage('Twój ruch to: ' + playerMove);
+
+
